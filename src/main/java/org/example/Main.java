@@ -56,5 +56,8 @@ public class Main {
         System.out.println(person.getSkills());
 
 
+
+
+
     }
 }
