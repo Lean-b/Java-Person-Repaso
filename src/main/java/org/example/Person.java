@@ -27,7 +27,7 @@ public class Person {
         this.interest = interest;
         this.linkedin = linkedin;
         this.gitHub = gitHub;
-        this.skills = skills;
+        this.skills = new Skills();
     }
 
     //Getter y Setter,es para obtener y modificar los datos de la clase
@@ -91,5 +91,18 @@ public class Person {
 
     public void setSkills(Skills skills) {
         this.skills = skills;
+    }
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", country='" + country + '\'' +
+                ", interest='" + interest + '\'' +
+                ", linkedin='" + linkedin + '\'' +
+                ", gitHub='" + gitHub + '\'' +
+                ", skills=" + skills +
+                '}';
     }
 }

@@ -50,4 +50,13 @@ public class Skills {
     public void setBlockchains(List<String> blockchains) {
         this.blockchains = blockchains;
     }
+    @Override
+    public String toString() {
+        return "Skills{" +
+                "language=" + language +
+                ", framework=" + framework +
+                ", dataBase=" + dataBase +
+                ", blockchains=" + blockchains +
+                '}';
+    }
 }
